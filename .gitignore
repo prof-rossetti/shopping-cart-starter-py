@@ -1,0 +1,23 @@
+
+
+# ignore some hidden files that appear on Mac OS:
+.DS_Store
+
+
+# ignore some specific files that may get generated when running python modules or tests:
+__pycache__
+.pytest-cache
+
+
+# ignore secret credentials
+.env
+
+
+
+# ignore all TXT files written to the receipts directory:
+receipts/*.txt
+
+
+# ignore the products.csv file inventory (but not the default):
+data/*.csv
+!data/default_products.csv

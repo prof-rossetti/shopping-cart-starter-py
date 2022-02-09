@@ -1,4 +1,4 @@
-# shopping_cart.py
+# this is the "shopping_cart.py" file...
 
 products = [
     {"id":1, "name": "Chocolate Sandwich Cookies", "department": "snacks", "aisle": "cookies cakes", "price": 3.50},
@@ -23,13 +23,21 @@ products = [
     {"id":20, "name": "Pomegranate Cranberry & Aloe Vera Enrich Drink", "department": "beverages", "aisle": "juice nectars", "price": 4.25}
 ] # based on data from Instacart: https://www.instacart.com/datasets/grocery-shopping-2017
 
-# TODO: write some Python code here to produce the desired functionality...
+
+def to_usd(my_price):
+    """
+    Converts a numeric value to usd-formatted string, for printing and display purposes.
+
+    Param: my_price (int or float) like 4000.444444
+
+    Example: to_usd(4000.444444)
+
+    Returns: $4,000.44
+    """
+    return f"${my_price:,.2f}" #> $12,000.71
+
+
+
+# TODO: write some Python code here to produce the desired output
 
 print(products)
-
-# an infinite loop! you can press control+c to cancel the program if/when it gets stuck...
-while True:
-    # capturing user input and storing in a variable
-    user_input = input("Please input a product identifier, or 'DONE' if there are no more items: ")
-    # demonstrating ability to recognize what the input was, although you might also want to check its datatype
-    print("YOUR INPUT WAS: " + user_input)

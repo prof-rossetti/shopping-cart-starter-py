@@ -1,0 +1,20 @@
+
+#
+# NOTE TO STUDENTS:
+# ... the basic project requirements can be completed without any third-party packages,
+# ... but the bonus challenges may require some packages,
+# ... so if you do need to install any packages,
+# ... feel free to update this file (for example uncommenting the names of packages to be installed)
+#
+
+
+
+# for reading environment variables from a special ".env" file
+# see: https://pypi.org/project/python-dotenv/
+# see: https://github.com/prof-rossetti/intro-to-python/blob/main/notes/python/packages/dotenv.md
+#python-dotenv
+
+# for sending email with the Sendgrid Service
+# see: https://pypi.org/project/sendgrid/
+# see: https://github.com/prof-rossetti/intro-to-python/blob/main/notes/python/packages/sendgrid.md
+#sendgrid==6.6.0
